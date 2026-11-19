@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Pet Shop</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+  <header>
+    <h1>Pet Shop Bicho Querido</h1>
+  </header>
+  <main>
+    <section class="cartao">
+      <h2>Centro especializado em atendimento ao seu Pet</h2>
+      <div class="area-imagem">
+        <img 
+          src="BichoBom.jpg" 
+          alt="Fachada da Loja com estacionamento na frente" 
+          class="foto-destaque"
+        >
+      </div>
+      <p>Aqui voce encontrará o melhor atendimento para Seu Pet.</p>
+      <h3>Taxi-Dog</h3>
+      <ul>
+        <li>Serviço leva e traz</li>
+        <li>Agendamento por WhatssApp</li>
+        <li>Agendamento por E-mail</li>
+      </ul>
+      <form>
+        <h3>Faça seu cadastro e entre no Clube de Fidelidade</h3>
+        <p>
+          <label for="nome-usuario">Seu Nome:</label>
+          <input type="text" id="nome-usuario" minlength="3" aria-describedby="Eduardo Forcato" placeholder="Digite seu nome" riquired>
+        </p>
+        <p>
+        <label for="email">Seu E-mail:</label>
+        <input type="email" id="email" placeholder="EX: forcato.e@gmail.com" required>
+        </p>
+        <fieldset>
+          <legend>Escolha o Atendimento:</legend>
+          <input type="radio" id="op1" name="escolha" value="opcao1">
+          <label for="op1">Buscar em Casa</label><br>
+          <input type="radio" id="op2" name="escolha" value="opcao2">
+          <label for="op2">Levar no Pet</label>
+        </fieldset>
+        <fieldset>
+          <legend>Marque o Serviço Desejado:</legend>
+          <input type="checkbox" id="check1" name="extras" value="item1">
+          <label for="check1">Banho Completo</label><br>
+          <input type="checkbox" id="check2" name="extras" value="item2">
+          <label for="check2">Tosa e massagem</label><br>
+          <input type="checkbox" id="check1" name="extras" value="item1">
+          <label for="check1">Desverminar</label>
+        </fieldset>
+        <button type="submit">Enviar Respostas</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Exercício de Revisão - Feito em aula</p>
+  </footer>
+</body>
+</html>
